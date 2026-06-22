@@ -101,7 +101,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:.95;letter-spaci
 .burger span{width:26px;height:2px;background:var(--cream);transition:.3s}
 
 /* ---------- Hero ---------- */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden}
+.hero{position:relative;min-height:100vh;display:flex;align-items:flex-start;overflow:hidden;padding:96px 0 48px}
 .hero-media{position:absolute;inset:0;z-index:0}
 .hero-media img,.hero-media video{width:100%;height:100%;object-fit:cover;
   filter:saturate(1.05) contrast(1.05);animation:kenburns 22s ease-out infinite alternate}
@@ -113,7 +113,7 @@ h1,h2,h3{font-family:var(--display);font-weight:400;line-height:.95;letter-spaci
     radial-gradient(120% 90% at 80% 10%,rgba(255,122,51,.22),transparent 55%),
     radial-gradient(120% 90% at 10% 90%,rgba(46,201,201,.20),transparent 55%);
 }
-.hero-inner{position:relative;z-index:3;width:100%;padding:88px 0 24px}
+.hero-inner{position:relative;z-index:3;width:100%}
 .hero h1{font-size:clamp(3.5rem,12vw,11rem);color:var(--cream);text-shadow:0 4px 40px rgba(0,0,0,.4)}
 .hero h1 .ln{display:block;overflow:hidden}
 .hero h1 .ln b{display:block;font-weight:400;transform:translateY(105%);animation:rise 1s var(--ease) forwards}
