@@ -1,0 +1,4 @@
+# large videos are uploaded as GitHub Release assets, not committed
+assets/video/*.mp4
+# os/editor junk
+.DS_Store
